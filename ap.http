@@ -2,6 +2,17 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name":"Vinicius Caetano",
-    "email":"vinicaetano.f@gmail.com"
+    "name":"Gui",
+    "email":"gui.f@gmail.com",
+    "referrerId":"e0154e16-8313-419f-9c78-9adef17204a1"
 }
+####
+GET http://localhost:3333/invites/b72743a5-cb34-4dd4-bdf2-bd2e5e9b330d
+####
+GET http://localhost:3333/subscribers/b72743a5-cb34-4dd4-bdf2-bd2e5e9b330d/ranking/clicks
+####
+GET http://localhost:3333/subscribers/b72743a5-cb34-4dd4-bdf2-bd2e5e9b330d/ranking/count
+####
+GET http://localhost:3333/subscribers/b72743a5-cb34-4dd4-bdf2-bd2e5e9b330d/ranking/position
+####
+GET http://localhost:3333/ranking
